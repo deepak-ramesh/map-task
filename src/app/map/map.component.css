@@ -1,0 +1,34 @@
+/* Map container */
+#map {
+    height: 100vh;
+  }
+  
+  /* Floating button */
+  .floating-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  /* Menu container */
+  #menu {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1001;
+  }
+  
+  /* Add more styles as needed */
+  
