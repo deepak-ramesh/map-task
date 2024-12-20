@@ -2,3 +2,8 @@
 command = "ng build"
 functions = "netlify/functions"
 publish = "dist/map-test/browser"
+
+[[redirects]]
+  from = "/*"
+  to = "/map/index.html"
+  status = 200
