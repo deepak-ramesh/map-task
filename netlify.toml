@@ -2,3 +2,6 @@
 command = "ng build"
 functions = "netlify/functions"
 publish = "dist/map-task/browser"
+
+[[plugins]]
+package = "@netlify/angular-runtime"
